@@ -1,0 +1,196 @@
+body {
+  font-family: "Montserrat-regular" sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-black', sans-serif;
+
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+.container-fluid {
+  padding: 8% 15%;
+}
+
+/* section */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+
+/* navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-right: 30px;
+}
+
+/* don't change the nav-link font-family */
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+.Download-button {
+  margin: 0 3% 0 0;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+/* title section */
+
+
+#title .container-fluid {
+  padding: 3% 17%;
+  text-align: left;
+  padding-bottom: 160px;
+}
+
+.title-head{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.iphone-img {
+  transform: rotate(25deg);
+  position: absolute;
+  width: 22em;
+  z-index: 1;
+  right: 25%;
+}
+
+/* for mobile and tablet friendly view */
+@media (max-width: 1305px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .iphone-img {
+    width: 20em;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* features section */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-icons {
+  margin-bottom: 20px;
+  color: #ef8172;
+}
+
+/* to add color when hovering over a button or any anchor tag or span just add the class name and then add the hover next to it then use color tag and the color of you liking  */
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.features-h {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
+
+/* Press section */
+
+#press {
+  background-color: #ef8172;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+.card {
+  margin: 0 20px;
+}
+
+.pricing-HP {
+  padding-top: 50px;
+  margin: 50px;
+  line-height: 1.1;
+}
+
+.dog-ph {
+  margin-bottom: 3.5rem;
+}
+
+.price-head2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+/* cta section */
+
+.cta-head {
+  font-size: 3.5rem;
+  line-height: 2;
+  font-weight: bold;
+}
+
+
+/* footer section */
+#footer {
+  line-height: 1.5;
+  padding: 4% 15%;
+}
+
+.footer-p {
+  margin-top: 15px;
+}
